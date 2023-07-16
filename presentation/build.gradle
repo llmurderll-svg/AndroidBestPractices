@@ -62,6 +62,18 @@ detekt {
     }
 }
 
+sonar {
+    properties{
+        property "sonar.projectKey", "AndroidBestPractices"
+        property "sonar.projectName", "AndroidBestPractices"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.token", "sqa_dfea7ceb4a22c9543babb776b1830ba8bedb23b4"
+        property "sonar.login", "admin"
+        property "sonar.password", "173900"
+
+    }
+}
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.10.1'
